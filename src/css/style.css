@@ -1,0 +1,34 @@
+.descreption{
+    height: auto;
+    width: 80%;
+}
+a{
+    display: inline-block;
+    margin-left: 20px ;
+    text-decoration: none;
+    color: white ;
+    
+}
+body{
+    background-color: #16181D;
+}
+.imdb{
+    width: 40px;
+    
+}
+hr{
+    color: white;
+}
+.poster{
+    width: 100%;
+}
+
+.clearfix1::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .main{
+      display: flex;
+      
+  }

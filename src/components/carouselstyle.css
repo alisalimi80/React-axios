@@ -1,0 +1,58 @@
+.carousel1{
+  overflow: hidden;
+  position: relative;
+  
+  
+}
+.inner1{
+  white-space: nowrap;
+  transition: transform 0.3s;
+ 
+  
+  
+
+}
+.carousel-item1{
+  
+  color: white;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  
+ 
+}
+.indicators1{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.indicators1 > button{
+  margin: 5px;
+  
+}
+.imgbtn{
+  width: 50px;
+  height: 50px;
+}
+.movebtn{
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.1);;
+  color: white;
+  border:  1px solid white;
+}
+.next{
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+.prev{
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
